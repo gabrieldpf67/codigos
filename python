@@ -1,5 +1,8 @@
-while 0 == 0:
-    print ("1 = adição \n2 = subtração \n3 = multiplicação \n4 = resto\n5 = divisão\n6 = poténcia\n7 = raiz\n8 - porcentagem\n     [escolha uma operação]")
+dsc = input("[{[{escolha]}]}]\n\n      QUIZIS \n\n      CALCULADORA\n")
+print(dsc)
+if dsc == calculadora:
+    while 0 == 0:
+    print ("1 = adição \n2 = subtração \n3 = multiplicação \n4 = resto\n5 = divisão\n6 = poténcia\n7 = raiz\n8 - porcentagem\n9 = bhaskara \n \n   [escolha uma operação]")
     a = input()
     if a == ("1"):
         b = int(input("escolha um numero   ="))
@@ -41,4 +44,13 @@ while 0 == 0:
         
         x1 = ((-1*x) + (delta ** 0.5)) / (2 * y)
         print (x1)
+        x2 = ((-1*x) - (delta ** 0.5)) / (2 * y)
+        print(x2)
+        
+        
+        
+        
+        
+        
+        
         
