@@ -53,16 +53,16 @@ elif dsc == "1":
     c = random.randint(1, 99)
     if a == 1:
         rer = input(str(b) + " + " + str(c) + " = ")
-        resposta = ()
+        resposta = (b + c)
+        if rer == resposta:
+            print("acertou")
         
-        
-        
-    elif a == 2:
-        input(str(b) + " - " + str(c) + " = ")
-    elif a == 3:
-        input(str(b) + " * " + str(c) + " = ")
-    elif a == 4:
-        input(str(b) + " / " + str(c) + " = ")
+    #elif a == 2:
+        #input(str(b) + " - " + str(c) + " = ")
+   # elif a == 3:
+        #input(str(b) + " * " + str(c) + " = ")
+  #  elif a == 4:
+        #input(str(b) + " / " + str(c) + " = ")
        
         
         
