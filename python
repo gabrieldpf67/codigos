@@ -48,21 +48,24 @@ if dsc == "2":
             x2 = ((-1*x) - (delta ** 0.5)) / (2 * y)
             print(x2)
 elif dsc == "1":
-    a = random.randint(1, 4)
+    a = random.randint(1, 1)
     b = random.randint(1, 99)
     c = random.randint(1, 99)
     if a == 1:
-        rer = input(str(b) + " + " + str(c) + " = ")
+        rer = int(input(str(b) + " + " + str(c) + " = "))
         resposta = (b + c)
         if rer == resposta:
-            print("acertou")
-        
+           print("acertou")
+        elif rer != resosta:
+            print("errou")
     #elif a == 2:
         #input(str(b) + " - " + str(c) + " = ")
    # elif a == 3:
         #input(str(b) + " * " + str(c) + " = ")
   #  elif a == 4:
         #input(str(b) + " / " + str(c) + " = ")
+       
+        
        
         
         
